@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(realpath())
+echo $(dirname $(realpath "${BASH_SOURCE:-$0}"))
