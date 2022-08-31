@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l file
+path='readlink -f "${BASH_SOURCE:-$0}"'
