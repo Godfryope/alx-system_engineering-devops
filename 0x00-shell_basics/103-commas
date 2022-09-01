@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | grep -v / | tr '\n' ','
+ls -p | grep -v / | tr '\n' ','
