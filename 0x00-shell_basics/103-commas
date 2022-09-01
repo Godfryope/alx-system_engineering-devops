@@ -1,2 +1,2 @@
 #!/bin/bash
- ls -pa | grep -v / | xargs echo | sed 's/ /, /g'
+ls -pa | grep -v / | tr '\n' ',$'
