@@ -1,3 +1,2 @@
 #!/bin/bash
-TH=$PATH:/action
-
+PATH=$PATH:/action
